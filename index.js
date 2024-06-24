@@ -64,7 +64,7 @@ var status4 = 1;  // 1 - online, 7 - invisible
 user4 = new steamUser();
 user4.logOn({"accountName": username4, "password": password4, "twoFactorCode": steamTotp.generateAuthCode(shared_secret4)});
 user4.on('loggedOn', () => {
-	if (user3.steamID != null) console.log(user3.steamID + ' - Successfully logged on');
-	user3.setPersona(status3);               
-	user3.gamesPlayed(games3);
+	if (user4.steamID != null) console.log(user4.steamID + ' - Successfully logged on');
+	user4.setPersona(status4);               
+	user4.gamesPlayed(games4);
 });
