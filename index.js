@@ -68,3 +68,4 @@ user4.on('loggedOn', () => {
 	user4.setPersona(status4);               
 	user4.gamesPlayed(games4);
 });
+
